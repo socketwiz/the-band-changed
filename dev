@@ -1,0 +1,21 @@
+#! /bin/sh
+
+tmux has-session -t thebandchanged
+if [ $? != 0 ]
+then
+    tmux new-session -s thebandchanged -n Server -d
+
+    # create another window
+    tmux new-window -t thebandchanged:1 -n Zsh
+
+    # run the server in the first pane, test in the second
+    tmux send-keys -t thebandchanged:0.0 'cd ~/dev/the-band-changed/public && python -m SimpleHTTPServer 3000' C-m
+
+    # just get to the proper path in the last window
+    tmux send-keys -t thebandchanged:1.0 'cd ~/dev/the-band-changed' C-m
+
+    # select the server window and pane
+    tmux select-window -t thebandchanged:0.0
+    tmux select-pane -t thebandchanged:0.0
+fi
+tmux attach -t thebandchanged
