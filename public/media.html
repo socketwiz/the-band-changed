@@ -190,7 +190,7 @@
             </div>
         </div>
         <script type="text/javascript">
-         require(['jquery', 'scripts/cookiemanager', 'scripts/iebackground'], function ($, cookieManager, bg) {
+         require(['jquery', './scripts/cookiemanager', 'scripts/iebackground'], function ($, cookieManager, bg) {
              if (cookieManager.getCookie("WSB.ForceDesktop")) {
                  $('.view-as-mobile', '.wsb-canvas-page-container').show().find('a').bind('click', function () {
                      cookieManager.eraseCookie("WSB.ForceDesktop");
