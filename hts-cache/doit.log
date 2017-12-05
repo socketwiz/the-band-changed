@@ -1,8 +1,0 @@
-http://www.thebandchanged.com/ -* -#p -B -%v -%k -w -s0 -F "Mozilla/5.0 (X11;U; Linux i686; en-GB; rv:1.9.1) Gecko/20090624 Ubuntu/9.04 (jaunty) Firefox/3.5" -v +*/www.thebandchanged.com/* +*/*.wsimg.com/* -o
-File generated automatically on Sat, 28 Oct 2017 10:19:02, do NOT edit
-
-To update a mirror, just launch httrack without any parameters
-The existing cache will be used (and modified)
-To have other options, retype all parameters and launch HTTrack
-To continue an interrupted mirror, just launch httrack without any parameters
-
