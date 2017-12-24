@@ -10,7 +10,7 @@ function Media() {
                 allowFullScreen="allowfullscreen"
                 className="youtube"
                 frameBorder="0"
-                src="//www.youtube.com/embed/lU6w7-gIXy0?feature=oembed&amp;wmode=opaque&amp;theme=dark&amp;showinfo=1&amp;autoplay=0"
+                src="//www.youtube.com/embed/lU6w7-gIXy0?feature=oembed&amp;wmode=opaque&amp;theme=dark&amp;showinfo=1&amp;autoplay=0" // eslint-disable-line max-len
                 title="Gotta Serve Somebody">
             </iframe>
 
@@ -21,7 +21,7 @@ function Media() {
                         src="/images/livin-not-to-die-cover.jpg" />
                 </div>
                 <div className="col-sm-4 col-md-7 col-lg-7">
-                    <div className="name">Livin' Not to Die</div>
+                    <div className="name">Livin&#39; Not to Die</div>
                     <div className="author">by The Band-Changed</div>
                     <div className="length">Length 3:58</div>
                 </div>
