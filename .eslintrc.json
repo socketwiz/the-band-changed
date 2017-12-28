@@ -1,9 +1,8 @@
 {
     "parserOptions": {
-        "ecmaVersion": 6,
+        "ecmaVersion": 8,
         "sourceType": "module",
         "ecmaFeatures": {
-            "experimentalObjectRestSpread": true,
             "jsx": true
         }
     },
@@ -13,7 +12,10 @@
         "comma-spacing": [2, {"before": false, "after": true}],
         "computed-property-spacing": [2, "never"],
         "eol-last": 2,
-        "indent": 0,
+        "indent": [2, 4, {
+            "VariableDeclarator": 1,
+            "SwitchCase": 1
+        }],
         "key-spacing": [2, {"beforeColon": false, "afterColon": true}],
         "func-names": 2,
         "max-len": [2, 120, 4],
@@ -27,6 +29,7 @@
         "space-infix-ops": 2,
         "space-before-blocks": 2,
         "spaced-comment": [2, "always"],
+
         "no-console": [1, {"allow": ["warn", "error"]}],
         "no-eval": 2,
         "no-multi-spaces": 2,

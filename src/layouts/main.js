@@ -31,6 +31,7 @@ export default class Main extends Component {
 Main.propTypes = {
     'children': PropTypes.oneOfType([
         PropTypes.array,
-        PropTypes.object
+        PropTypes.object,
+        PropTypes.string
     ])
 };
