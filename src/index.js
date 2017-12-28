@@ -7,6 +7,7 @@ import BandBios from './components/bios';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import ContactUs from './components/contact';
 import {createStore} from 'redux';
+import {composeWithDevTools} from 'redux-devtools-extension';
 import UpcomingEvents from './components/events';
 import Gallery from './components/gallery';
 import Media from './components/media';
