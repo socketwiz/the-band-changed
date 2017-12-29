@@ -5,17 +5,17 @@ import './main.css';
 import Band from './containers/band';
 import BandBios from './components/bios';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import ContactUs from './components/contact';
+import ContactUs from './containers/contact';
 import {createStore} from 'redux';
 import {composeWithDevTools} from 'redux-devtools-extension';
-import UpcomingEvents from './components/events';
-import Gallery from './components/gallery';
+import Gallery from './containers/gallery';
 import Media from './components/media';
 import News from './components/news';
 import {Provider} from 'react-redux';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import rootReducer from './reducers/index';
+import UpcomingEvents from './containers/events';
 
 const composeEnhancers = composeWithDevTools({
     // Specify name here, actionsBlacklist, actionsCreators and other options if needed

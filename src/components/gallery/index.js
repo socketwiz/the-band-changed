@@ -1,13 +1,129 @@
 
+import './gallery.css';
+import {Carousel, Modal} from 'react-bootstrap';
 import Main from '../../layouts/main';
-import React from 'react';
+import map from 'lodash/map';
+import PropTypes from 'prop-types';
+import React, {Component} from 'react';
 
-function Gallery() {
-    return (
-        <Main>
-            <h1 className="title">Photos</h1>
-        </Main>
-    );
+class Gallery extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            'activeIndex': 0,
+            'showModal': false
+        };
+    }
+
+    componentDidMount() {
+        const {getImages} = this.props;
+
+        if (typeof getImages === 'function') {
+            getImages();
+        }
+    }
+
+    onClickPhoto(event) {
+        event.preventDefault();
+
+        const element = event.currentTarget;
+
+        try {
+            const id = /-(\d+)$/.exec(element.id)[1];
+
+            this.setState({
+                'activeIndex': parseInt(id, 10),
+                'showModal': true
+            });
+        } catch (error) {
+            console.error('Regex failed!', error);
+        }
+    }
+
+    close() {
+        this.setState({'showModal': false});
+    }
+
+    onSelectCarousel(id) {
+        this.setState({'activeIndex': parseInt(id, 10)});
+    }
+
+    render() {
+        const {activeIndex, showModal} = this.state;
+        const {images} = this.props;
+        const thumbnails = map(images, (image, index) => {
+            const id = `carousel-selector-${index}`;
+            const style = {
+                'height': '150px',
+                'width': 'auto'
+            };
+
+            if (image.orientation === 'portrait') {
+                style.height = 'auto';
+                style.width = '150px';
+            }
+
+            return <li className="col-sm-4" key={index}>
+                <a className="thumbnail"
+                    id={id}
+                    onClick={this.onClickPhoto.bind(this)}>
+                    <img alt="" src={image.path} style={style} />
+                </a>
+            </li>;
+        });
+        const carouselItems = map(images, (image, index) => {
+            return <Carousel.Item key={index}>
+                <img alt="" src={image.path} />
+            </Carousel.Item>;
+        });
+
+        return (
+            <Main>
+                <h1 className="title">Photos</h1>
+                <div className="photo row">
+                    <div className="col-sm-6" id="slider-thumbs">
+                        <ul className="hide-bullets">
+                            {thumbnails}
+                        </ul>
+                    </div>
+                    <div className="col-sm-6">
+                        <div className="col-xs-12" id="slider">
+                            <div className="row">
+                                <div className="col-sm-12" id="carousel-bounding-box">
+                                    <Carousel className="carousel"
+                                        indicators={false}
+                                        interval={5000}> 
+                                        {carouselItems}
+                                    </Carousel>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <Modal bsSize="large" show={showModal} onHide={this.close.bind(this)}>
+                    <Modal.Header closeButton>
+                        <Modal.Title>Image {activeIndex + 1}/{images.length}</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                        <Carousel activeIndex={activeIndex}
+                            className="carousel"
+                            controls={true}
+                            indicators={false}
+                            onSelect={this.onSelectCarousel.bind(this)}>
+                            {carouselItems}
+                        </Carousel>
+                    </Modal.Body>
+                </Modal>
+            </Main>
+        );
+    }
 }
+
+Gallery.propTypes = {
+    'getImages': PropTypes.func,
+    'images': PropTypes.array
+};
 
 export default Gallery;
