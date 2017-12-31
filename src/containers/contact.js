@@ -1,6 +1,7 @@
 
 import {connect} from 'react-redux';
 import Contact from '../components/contact';
+import 'whatwg-fetch';
 import {withRouter} from 'react-router';
 
 const mapStateToProps = state => {
@@ -12,7 +13,26 @@ const mapDispatchToProps = dispatch => {
     return {
         'sendMessage': event => {
             event.preventDefault();
-            console.log('send message');
+
+            const form = event.currentTarget;
+            const name = form.querySelector('#name');
+            const email = form.querySelector('#email');
+            const updates = form.querySelector('#updates');
+            const subject = form.querySelector('#subject');
+            const message = form.querySelector('#message');
+            const payload = {
+                'name': name.value,
+                'email': email.value,
+                'updates': updates.checked,
+                'subject': subject.value,
+                'message': message.value
+            };
+            const options = {
+                'method': 'POST',
+                'body': JSON.stringify(payload)
+            };
+
+            return fetch('http://localhost:8080/contact', options);
         }
     };
 };
