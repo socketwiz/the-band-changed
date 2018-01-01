@@ -21,6 +21,18 @@ class ContactUs extends Component {
             sendMessage(event)
                 .then(() => {
                     this.setState({'alertVisible': true});
+
+                    const name = document.querySelector('#name');
+                    const email = document.querySelector('#email');
+                    const updates = document.querySelector('#updates');
+                    const subject = document.querySelector('#subject');
+                    const message = document.querySelector('#message');
+
+                    name.value = '';
+                    email.value = '';
+                    updates.checked = false;
+                    subject.value = '';
+                    message.value = '';
                 })
                 .catch(error => {
                     console.error(error);
