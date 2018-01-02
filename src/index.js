@@ -4,7 +4,7 @@ import './main.css';
 
 import Band from './containers/band';
 import BandBios from './components/bios';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {HashRouter, Route, Switch} from 'react-router-dom';
 import ContactUs from './containers/contact';
 import {createStore} from 'redux';
 import {composeWithDevTools} from 'redux-devtools-extension';
@@ -24,7 +24,7 @@ const store = createStore(rootReducer, composeEnhancers());
 
 ReactDOM.render(
     <Provider store={store}>
-        <BrowserRouter>
+        <HashRouter>
             <Switch>
                 <Route exact path="/" component={Band} />
                 <Route exact path="/media" component={Media} />
@@ -34,7 +34,7 @@ ReactDOM.render(
                 <Route exact path="/news" component={News} />
                 <Route exact path="/bios" component={BandBios} />
             </Switch>
-        </BrowserRouter>
+        </HashRouter>
     </Provider>,
     document.getElementById('root')
 );
