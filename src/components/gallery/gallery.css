@@ -1,0 +1,29 @@
+
+.item > img {
+    margin: 0 auto;
+}
+
+.hide-bullets {
+    list-style: none;
+    margin-left: -40px;
+}
+
+.modal-title {
+    color: rgb(0, 0, 0);
+}
+
+.thumbnail {
+    display: inline-block;
+    height: 150px;
+    margin: 5px;
+    overflow: hidden;
+    padding: 0;
+    vertical-align: middle;
+    width: 125px;
+}
+
+.thumbnail > img {
+    margin: 0 auto;
+    max-width: unset;
+    position: relative;
+}

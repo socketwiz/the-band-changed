@@ -1,0 +1,127 @@
+
+/* common */
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.6;
+    padding-top: 25px;
+}
+
+h5 {
+    font-family: "Julius Sans One";
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.required {
+    color: rgb(255, 0, 0);
+}
+
+.title {
+    color: rgb(237, 108, 21);
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+/* navigation */
+.nav a {
+    color: rgb(255, 255, 255);
+    font-family: 'Averia Sans Libre';
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.nav a:hover {
+    color: rgb(255, 0, 0);
+}
+
+/* home */
+.band-pic {
+    height: auto;
+    width: 386px;
+}
+.band-pic-caption {
+    margin-top: 10px;
+    padding-right: 10px;
+    position: absolute;
+    text-align: center;
+    width: 386px;
+}
+.band-pic-caption p {
+    clear: both;
+    float: right;
+    width: 250px;
+}
+.photo-courtesy {
+    text-align: left;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .band-pic {
+        height: auto;
+        width: 407px;
+    }
+    .band-pic-caption {
+        width: 407px;
+    }
+    .band-pic-caption p {
+    }
+    .photo-courtesy {
+        text-align: right;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .band-pic {
+        height: auto;
+        width: 617px;
+    }
+    .band-pic-caption {
+        width: 617px;
+    }
+    .band-pic-caption p {
+    }
+    .photo-courtesy {
+        text-align: right;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .band-pic {
+        height: auto;
+        width: 848px;
+    }
+    .band-pic-caption {
+        width: 848px;
+    }
+    .band-pic-caption p {
+    }
+    .photo-courtesy {
+        text-align: right;
+    }
+}
+
+/* media */
+.livin-not-to-die-cover {
+    height: 480px;
+    width: 640px;
+}
+
+.livin-not-to-die-player {
+    width: 640px;
+}
+
+.livin-not-to-die .name {
+    font-size: 24px;
+}
+
+.youtube {
+    width: 640px;
+    height: 480px;
+}
