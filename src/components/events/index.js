@@ -44,10 +44,18 @@ class UpcomingEvents extends Component {
             </div>;
         });
         const eventPassedPartial = map(eventsPassed, (eventsPassed, index) => {
-            return <div className="event-passed" key={index}>
-                <div className="row">
-                    <div className="col-xs-12 location">{eventsPassed.location}</div>
-                </div>
+            const year = eventsPassed.year;
+            const eventsPartial = map(eventsPassed.events, (event, index) => {
+                return <div className="event-passed" key={index}>
+                    <div className="row">
+                        <div className="col-xs-12 location">{event.location}</div>
+                    </div>
+                </div>;
+            });
+
+            return <div className="col-xs-12" key={index}>
+                <h2 className="past-events-title">Past Events {year}</h2>
+                {eventsPartial}
             </div>;
         });
 
@@ -63,10 +71,7 @@ class UpcomingEvents extends Component {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-xs-12">
-                                <h2 className="past-events-title">Past Events 2017</h2>
-                                {eventPassedPartial}
-                            </div>
+                            {eventPassedPartial}
                         </div>
                     </div>
                 </div>

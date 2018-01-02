@@ -32,7 +32,7 @@ const mapDispatchToProps = dispatch => {
                 'body': JSON.stringify(payload)
             };
 
-            return fetch('http://localhost:8080/contact', options);
+            return fetch('http://104.236.45.37:8080/contact', options);
         }
     };
 };
