@@ -10,7 +10,7 @@ function Media() {
                 allowFullScreen="allowfullscreen"
                 className="youtube"
                 frameBorder="0"
-                src="//www.youtube.com/embed/lU6w7-gIXy0?feature=oembed&amp;wmode=opaque&amp;theme=dark&amp;showinfo=1&amp;autoplay=0" // eslint-disable-line max-len
+                src="//www.youtube.com/embed/sHhTnNCgRhY?feature=oembed&amp;wmode=opaque&amp;theme=dark&amp;showinfo=1&amp;autoplay=0" // eslint-disable-line max-len
                 title="Gotta Serve Somebody">
             </iframe>
 
