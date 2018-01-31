@@ -1,0 +1,5 @@
+
+.form-group:after {
+    color: rgb(255, 0, 0);
+    content: attr(data-error);
+}

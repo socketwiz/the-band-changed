@@ -1,6 +1,8 @@
 
+import './contact.css';
+
 import {Alert} from 'react-bootstrap';
-import {Button, Form, Input} from 'react-components';
+import {Button, Form, TextArea, TextInput} from 'rwidgets';
 import Main from '../../layouts/main';
 import PropTypes from 'prop-types';
 import React, {Component} from 'react';
@@ -44,11 +46,21 @@ class ContactUs extends Component {
         this.setState({'alertVisible': false});
     }
 
+    validateRequired(values) {
+        const validateField = field => {
+            return field ? '' : 'Required';
+        };
+
+        return {
+            'name': validateField(values.name),
+            'email': validateField(values.email),
+            'subject': validateField(values.subject),
+            'message': validateField(values.message)
+        };
+    }
+
     render() {
         const {alertVisible} = this.state;
-        const validations = [
-            {'required': ''}
-        ];
 
         let alertClass = ['alert', 'alert-success', 'alert-dismissable'];
 
@@ -68,22 +80,21 @@ class ContactUs extends Component {
                 </h5>
                 <div className="row">
                     <div className="col-sm-6">
-                        <Form onSubmit={this.onSendMessage.bind(this)}>
+                        <Form onSubmit={this.onSendMessage.bind(this)}
+                            validateError={this.validateRequired.bind(this)}>
                             <div className="form-group">
                                 <label htmlFor="name">Name <span className="required">*</span></label>
-                                <Input className="form-control"
-                                    id="name"
+                                <TextInput className="form-control"
+                                    field="name"
                                     placeholder="Enter name"
-                                    type="text"
-                                    validations={validations} />
+                                    type="text" />
                             </div>
                             <div className="form-group">
                                 <label htmlFor="email">Email address <span className="required">*</span></label>
-                                <Input className="form-control"
-                                    id="email"
+                                <TextInput className="form-control"
+                                    field="email"
                                     placeholder="Enter email address"
-                                    type="email"
-                                    validations={validations} />
+                                    type="email" />
                             </div>
                             <div className="checkbox">
                                 <label>
@@ -92,22 +103,19 @@ class ContactUs extends Component {
                             </div>
                             <div className="form-group">
                                 <label htmlFor="name">Subject <span className="required">*</span></label>
-                                <Input className="form-control"
-                                    id="subject"
+                                <TextInput className="form-control"
+                                    field="subject"
                                     placeholder="Enter subject"
-                                    type="text"
-                                    validations={validations} />
+                                    type="text" />
                             </div>
                             <div className="form-group">
                                 <label htmlFor="name">Message <span className="required">*</span></label>
-                                <textarea className="form-control"
-                                    id="message"
+                                <TextArea className="form-control"
+                                    field="message"
                                     placeholder="Enter message"
-                                    rows="3"></textarea>
+                                    rows="3"></TextArea>
                             </div>
                             <Button className="btn btn-default"
-                                data-primary={true}
-                                disabled={true}
                                 type="submit" >Submit</Button>
                         </Form>
                     </div>
