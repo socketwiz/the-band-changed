@@ -1,6 +1,19 @@
 
 [
     {
+        "date": "2018-03-04",
+        "time": "5:00 - 8:00PM",
+        "location": "Alamo Drafthouse",
+        "address": "181 Kernstown Commons Blvd, Winchester, VA 22602",
+        "phone": "(540) 313-4060"
+    },
+    {
+        "date": "2018-06-27",
+        "time": "All day",
+        "location": "FAME Studios",
+        "address": "603 Avalon Ave, Muscle Shoals, AL 35661"
+    },
+    {
         "date": "2018-05-26",
         "time": null,
         "location": "NewTown Heritage Festival",
@@ -8,7 +21,7 @@
     },
     {
         "date": "2018-06-15",
-        "time": null,
+        "time": "7:00 - 10:00PM",
         "location": "Bright Box Theater",
         "address": "15 N Loudoun St, Winchester, VA 22601",
         "phone": "(540) 665-2878"
