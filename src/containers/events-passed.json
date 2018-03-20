@@ -4,6 +4,9 @@
         "year": 2018,
         "events": [
             {
+                "location": "Alamo Drafthouse"
+            },
+            {
                 "location": "WinLifeTV, Winchester, VA"
             }
         ]
