@@ -139,7 +139,7 @@ function BandBios() {
                 plays lead guitar).
             </p>
             <p>
-                <a href="http://www.amazon.com/Prelude-Worship-Winchester-Church-God/dp/B00R0MKNOO"
+                <a href="http://www.amazon.com/Prelude-Worship-Winchester-Church-God/dp/B076D5GCWV"
                     rel="noopener noreferrer"
                     target="_blank">
                     http://www.amazon.com/Prelude-Worship-Winchester-Church-God/dp/B00R0MKNOO</a>

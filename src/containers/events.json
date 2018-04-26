@@ -1,16 +1,10 @@
 
 [
     {
-        "date": "2018-04-27",
+        "date": "2018-04-29",
         "time": "All day",
         "location": "FAME Studios",
         "address": "603 Avalon Ave, Muscle Shoals, AL 35661"
-    },
-    {
-        "date": "2018-05-26",
-        "time": null,
-        "location": "NewTown Heritage Festival",
-        "address": "Main Street Pavilion, Stephens City, VA 22655"
     },
     {
         "date": "2018-06-15",
@@ -26,5 +20,11 @@
         "address": "95 Chalmers Court, Berryville, VA 22611",
         "phone": "(540) 955-2004",
         "hours": "Tuesday-Saturday: Noon to 3:00 PM"
+    },
+    {
+        "date": "2019-05-26",
+        "time": null,
+        "location": "NewTown Heritage Festival",
+        "address": "Main Street Pavilion, Stephens City, VA 22655"
     }
 ]
