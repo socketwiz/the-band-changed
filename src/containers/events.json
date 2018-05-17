@@ -1,17 +1,28 @@
 
 [
     {
-        "date": "2018-04-29",
-        "time": "All day",
-        "location": "FAME Studios",
-        "address": "603 Avalon Ave, Muscle Shoals, AL 35661"
-    },
-    {
         "date": "2018-06-15",
         "time": "7:00 - 10:00PM",
         "location": "Bright Box Theater",
         "address": "15 N Loudoun St, Winchester, VA 22601",
         "phone": "(540) 665-2878"
+    },
+    {
+        "date": "2018-06-24",
+        "time": "4:00 - 7:00PM",
+        "location": "Women's Benefit Shelter"
+    },
+    {
+        "date": "2018-07-13",
+        "time": "7:30 - 10:00PM",
+        "location": "Music in the Gap Concert Series"
+    },
+    {
+        "date": "2018-09-1",
+        "time": "7:00 - 8:00PM",
+        "location": "Jammin' Java",
+        "address": "227 Maple Ave E, Vienna, VA 22180",
+        "phone": "(703) 255-1566"
     },
     {
         "date": "2018-07-07",
