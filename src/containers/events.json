@@ -6,17 +6,17 @@
         "location": "Women's Benefit Shelter"
     },
     {
-        "date": "2018-07-13",
-        "time": "7:30 - 10:00PM",
-        "location": "Music in the Gap Concert Series"
-    },
-    {
         "date": "2018-07-07",
         "time": null,
         "location": "The Barns of Rose Hill",
         "address": "95 Chalmers Court, Berryville, VA 22611",
         "phone": "(540) 955-2004",
         "hours": "Tuesday-Saturday: Noon to 3:00 PM"
+    },
+    {
+        "date": "2018-07-13",
+        "time": "7:30 - 10:00PM",
+        "location": "Music in the Gap Concert Series"
     },
     {
         "date": "2018-09-01",
