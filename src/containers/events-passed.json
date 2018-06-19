@@ -4,13 +4,16 @@
         "year": 2018,
         "events": [
             {
-                "location": "FAME Studios"
+                "location": "WinLifeTV, Winchester, VA"
             },
             {
                 "location": "Alamo Drafthouse"
             },
             {
-                "location": "WinLifeTV, Winchester, VA"
+                "location": "FAME Studios"
+            },
+            {
+                "location": "Bright Box Theater, Winchester, VA"
             }
         ]
     },
