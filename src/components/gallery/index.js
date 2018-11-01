@@ -65,11 +65,11 @@ class Gallery extends Component {
             }
 
             return <li className="col-sm-4" key={index}>
-                <a className="thumbnail"
+                <div className="thumbnail"
                     id={id}
                     onClick={this.onClickPhoto.bind(this)}>
                     <img alt="" src={image.path} style={style} />
-                </a>
+                </div>
             </li>;
         });
         const carouselItems = map(images, (image, index) => {
