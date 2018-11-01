@@ -5,7 +5,21 @@ import React from 'react';
 function Media() {
     return (
         <Main>
-            <h1 className="title">Videos & Music</h1>
+            <h1 className="title">Videos &amp; Music</h1>
+            <div className="row">
+                <div className="col-sm-12">
+                    <h2>Check out our album on iTunes</h2>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-sm-12">
+                    <a href="https://itunes.apple.com/us/album/live-from-muscle-shoals/1409976434"
+                        rel="noopener noreferrer" target="_blank">
+                        <img src="/images/album-cover.png" alt="The Band - Changed, Live from Muscle Shoals" />
+                    </a>
+                </div>
+            </div>
+
             <iframe
                 allowFullScreen="allowfullscreen"
                 className="youtube"
