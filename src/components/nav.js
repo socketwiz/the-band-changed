@@ -31,6 +31,9 @@ function Nav(props) {
             <div className="col-sm-12 col-md-12 col-lg-12"><Link to="/bios">Band Bios</Link></div>
         </div>
         <div className="row">
+            <div className="col-sm-12 col-md-12 col-lg-12"><Link to="/lyrics">Lyrics</Link></div>
+        </div>
+        <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-12">
                 <a href="https://www.facebook.com/thebandChanged">
                     <i className="fa-2x fab fa-facebook"></i>
