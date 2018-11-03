@@ -24,8 +24,8 @@ function Media() {
                 allowFullScreen="allowfullscreen"
                 className="youtube"
                 frameBorder="0"
-                src="//www.youtube.com/embed/sHhTnNCgRhY?feature=oembed&amp;wmode=opaque&amp;theme=dark&amp;showinfo=1&amp;autoplay=0" // eslint-disable-line max-len
-                title="Gotta Serve Somebody">
+                src="//www.youtube.com/embed/QGlZTC1p0zA?feature=oembed&amp;wmode=opaque&amp;theme=dark&amp;showinfo=1&amp;autoplay=0" // eslint-disable-line max-len
+                title="Devil Better Run">
             </iframe>
 
             <div className="row livin-not-to-die">
