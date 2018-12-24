@@ -142,7 +142,7 @@ function BandBios() {
                 <a href="http://www.amazon.com/Prelude-Worship-Winchester-Church-God/dp/B076D5GCWV"
                     rel="noopener noreferrer"
                     target="_blank">
-                    http://www.amazon.com/Prelude-Worship-Winchester-Church-God/dp/B00R0MKNOO</a>
+                    http://www.amazon.com/Prelude-Worship-Winchester-Church-God/dp/B076D5GCWV</a>
             </p>
 
             <h3>Aaron Adams</h3>
