@@ -56,33 +56,38 @@ function BandBios() {
                 className="bio-image"
                 src="/images/liz-turner.jpg" />
             <p>
-                Liz grew up attending a local church. Throughout her childhood and
-                adolescence she never doubted God&#39;s existence. Though she was
-                surrounded by Godly believers, she says...
+                Liz and her fiancé were involved in ministry as they attended a small, Southern Baptist
+                church in Tallahassee, Florida. It was there they also attended college. Her next step
+                was returning home to attend grad school at Shenandoah University (Winchester,
+                Virginia) for physical therapy.
             </p>
             <p>
-                &quot;I never accepted him as Savior and Lord of my life until I was in
-                college. It was there, In a small, Southern Baptist Church in
-                Tallahassee Florida that my fiancé and I both received the Lord! What
-                an awesome, life changing moment that was for us!&quot;
+                Liz started a family with her husband Chip and they currently live in Winchester with
+                their two children, Jackson and Izzy.
             </p>
             <p>
-                Her faith and service to God has continued to grow since that time
-                too.
+                She played piano as a young child and picked up the guitar in her early 20&#39;s, She
+                connected with the guitar and learned simple chord structures to her favorite songs. It
+                was Dan May who was her first guitar teacher.
             </p>
             <p>
-                &quot;I fall in love with him all over again...every single day&quot;.
+                She served at the Winchester Church of God music and drama ministry for 10 years.
+                Singing on the praise team, choir and ensemble, she wrote and directed plays for both
+                adult and children’s drama. &quot;I have always loved writing and creating something that
+                would move or inspire others. I would often write funny poems to friends on birthdays or
+                eloquent love letters but it wasn&#39;t until I was approached by our music pastor and asked
+                to write an original song about family that I considered songwriting.&quot;
             </p>
             <p>
-                She serves in the ministry at the Winchester Church of God (since
-                2003) and has been a member of the choir, praise team, ensemble as
-                well as on the drama team. Liz has a gift with lyrics and writing.
+                After writing that song, Liz couldn’t get enough. She started writing lyrics down in
+                notebooks that were lying around, researching theory, deconstructing favorite songs to
+                understand what made them work, and playing with words. Songwriting became a
+                passion.
             </p>
             <p>
-                She is self employed as a pediatric physical therapist working with
-                young children and their families in Winchester and the surrounding
-                areas. In ministry, her passion is to design, create, inspire, and
-                motivate people to Christ through music and the arts.
+                &quot;The trust, encouragement, loyalty, and experience of my friends and band mates has
+                given me the wings to grow as a singer and songwriter. I have dedicated myself to
+                inspiring others through songs of real life, real struggle and real redemption&quot;.
             </p>
 
             <h3>Dan May</h3>
@@ -351,6 +356,45 @@ function BandBios() {
                 the change of pace from church playing. I&#39;m hoping this challenge will
                 help me expand my abilities as a drummer as well as find a different
                 way to worship and make new friends.&quot;
+            </p>
+
+            <h3>Barry Laub</h3>
+
+            <p>
+                Barry is from Allentown, PA, where he has worked in various construction trades. In 1991 he
+                became a licensed remodeling contractor then moved to Northern Virginia in 2000, continuing
+                his career as a self-employed carpenter.
+            </p>
+            <p>
+                Barry started playing saxophones in 1973, at the age of nine. He played alto sax in concert band,
+                tenor sax in marching band, baritone sax in jazz band. Over the years, he has played a
+                combination of tenor, alto or soprano saxophones in several church orchestras, from the church
+                he attended with his parents to the local church Barry and his fiancé Dana now attend.
+            </p>
+            <p>
+                &quot;Although I enjoy playing solos, I also appreciate and find fulfillment in playing a supportive
+                role within the band.&quot;
+            </p>
+            <p>
+                In 2017, Barry received an Associate of Arts: Information Systems from Liberty University
+                Online. He is now pursuing a Bachelor of Arts: IT Application and Database Development and
+                will soon work as a computer programmer.
+            </p>
+            <p>
+                &quot;The Christian values I was taught throughout childhood helped to keep me out of trouble.
+                However, in my twenties I went through a rebellious time. Although I recommitted my life to the
+                Lord, I still seemed to straddle the fence from time to time.&quot;
+            </p>
+            <p>
+                &quot;My relationship with the Lord is secure because it is based upon faith in what Jesus did for me,
+                however, I have proven that you will reap what you sow – good and bad. The Lord wants us to
+                make good decisions and do His will.&quot;
+            </p>
+            <p>
+                &quot;I&#39;m very thankful to have Dana in my life; she has been so supportive…especially these last
+                few years while going to college, and she has also encouraged me to pursue these musical
+                interests. I know the other band members also value the support of their families – thank you so
+                much!&quot;
             </p>
         </Main>
     );

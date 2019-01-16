@@ -1,20 +1,6 @@
 
 [
     {
-        "date": "2019-01-04",
-        "location": "Bright Box",
-        "address": "15 N Loudoun St, Winchester, VA 22601",
-        "phone": "(540) 665-2878",
-        "time": "7:00 PM - 10:00 PM"
-    },
-    {
-        "date": "2019-01-13",
-        "location": "Loudoun County Old Stone School Worship",
-        "address": "37098 Charles Town Pike, Hillsboro, Virginia 20132",
-        "phone": "(540) 751-1770",
-        "time": "10:00 AM - 11:30 AM"
-    },
-    {
         "date": "2019-02-09",
         "location": "Warren County First Responders Dinner",
         "address": "Front Royal, VA"
