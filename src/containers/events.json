@@ -12,6 +12,13 @@
         "time": "7:00 PM - 10:00 PM"
     },
     {
+        "date": "2019-03-23",
+        "location": "Jammin' Java",
+        "address": "227 Maple Ave E, Vienna, VA 22180",
+        "time": "1:00 PM - 4:00 PM",
+        "phone": "(703) 255-1566"
+    },
+    {
         "date": "2019-05-26",
         "location": "NewTown Heritage Festival",
         "address": "Main Street Pavilion, Stephens City, VA 22655"
