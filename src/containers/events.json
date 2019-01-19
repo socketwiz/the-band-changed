@@ -21,12 +21,14 @@
     {
         "date": "2019-05-26",
         "location": "NewTown Heritage Festival",
+        "time": "12:00 PM - 2:00 PM",
         "address": "Main Street Pavilion, Stephens City, VA 22655"
     },
     {
         "date": "2019-08-10",
         "location": "Barns of Rosehill",
         "address": "95 Chalmers Ct, Berryville, VA 22611",
+        "time": "Doors open at 7:00 PM, Show starts at 8:00 PM",
         "phone": "(540) 955-2004"
     }
 ]
