@@ -1,22 +1,17 @@
 
 [
     {
-        "date": "2019-02-09",
-        "location": "Warren County First Responders Dinner",
-        "address": "Front Royal, VA"
-    },
-    {
-        "date": "2019-02-15",
-        "location": "The Gloria Faye Dingus Center For The Performing Arts",
-        "address": "92 Main Street, Warrenton, Virginia 20186",
-        "time": "7:00 PM - 10:00 PM"
-    },
-    {
         "date": "2019-03-23",
         "location": "Jammin' Java",
         "address": "227 Maple Ave E, Vienna, VA 22180",
         "time": "1:00 PM - 4:00 PM",
         "phone": "(703) 255-1566"
+    },
+    {
+        "date": "2019-04-28",
+        "location": "Old Stone School Hillsboro Virginia",
+        "time": "10:00 AM",
+        "address": "37098 Charles Town Pike, Hillsboro, Virginia 20132"
     },
     {
         "date": "2019-05-26",
