@@ -1,12 +1,6 @@
 
 [
     {
-        "date": "2019-04-19",
-        "location": "Middleburg's \"Concerts on the Steps\" Concert Series",
-        "time": "6:00 - 8:00 PM",
-        "address": "300 W. Washington Street, Middleburg, VA 20117"
-    },
-    {
         "date": "2019-04-28",
         "location": "Old Stone School Hillsboro Virginia",
         "time": "10:00 AM",
@@ -19,10 +13,27 @@
         "address": "Main Street Pavilion, Stephens City, VA 22655"
     },
     {
+        "date": "2019-06-08",
+        "location": "Concerts in the Gap",
+        "address": "37098 Charles Town Pike, Hillsboro, VA 20132"
+    },
+    {
         "date": "2019-08-10",
         "location": "Barns of Rosehill",
         "address": "95 Chalmers Ct, Berryville, VA 22611",
         "time": "Doors open at 7:00 PM, Show starts at 8:00 PM",
         "phone": "(540) 955-2004"
+    },
+    {
+        "date": "2010-09-22",
+        "location": "The Union of Sinners & Saints John Schlitt (Petra) + Bill Smiley (Whiteheart) + Jason Fowler w/ The Band - Changed, Bright Box Theater",
+        "address": "15 N Loudoun St, Winchester, VA 22601",
+        "phone": "(540) 665-2878"
+    },
+    {
+        "date": "2019-12-06",
+        "location": "Bright Box Theater",
+        "address": "15 N Loudoun St, Winchester, VA 22601",
+        "phone": "(540) 665-2878"
     }
 ]
