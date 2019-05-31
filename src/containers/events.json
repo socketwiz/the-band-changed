@@ -1,18 +1,6 @@
 
 [
     {
-        "date": "2019-04-28",
-        "location": "Old Stone School Hillsboro Virginia",
-        "time": "10:00 AM",
-        "address": "37098 Charles Town Pike, Hillsboro, Virginia 20132"
-    },
-    {
-        "date": "2019-05-26",
-        "location": "NewTown Heritage Festival",
-        "time": "12:00 PM - 2:00 PM",
-        "address": "Main Street Pavilion, Stephens City, VA 22655"
-    },
-    {
         "date": "2019-06-08",
         "location": "Concerts in the Gap",
         "address": "37098 Charles Town Pike, Hillsboro, VA 20132"
