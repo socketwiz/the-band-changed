@@ -9,22 +9,24 @@ export default class Main extends Component {
     render() {
         const {children} = this.props;
 
-        return <div>
-            <Header />
+        return (
+            <div>
+              <Header />
 
-            <div className="container">
+              <div className="container">
                 <div className="row">
-                    <div className="col-sm-5 col-md-4 col-lg-3">
-                        <Nav />
-                    </div>
-                    <div className="col-sm-7 col-md-8 col-lg-9">
-                        {children}
-                    </div>
+                  <div className="col-3">
+                    <Nav />
+                  </div>
+                  <div className="col-9">
+                    {children}
+                  </div>
                 </div>
-            </div>
+              </div>
 
-            <Footer />
-        </div>;
+              <Footer />
+            </div>
+        );
     }
 }
 

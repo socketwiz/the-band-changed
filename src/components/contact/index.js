@@ -62,16 +62,17 @@ class ContactUs extends Component {
     render() {
         const {alertVisible} = this.state;
 
-        let alertClass = ['alert', 'alert-success', 'alert-dismissable'];
+        let alertClass = ['success'];
+        let hidden = false;
 
         if (alertVisible === false) {
-            alertClass.push('hidden');
+            hidden = true;
         }
 
         return (
             <Main>
-                <Alert bsClass={alertClass.join(' ')} onDismiss={this.onCloseAlert.bind(this)}>
-                    <p>Your message has been sent and we will respond as quickly as we can.</p>
+                <Alert variant={alertClass.join(' ')} onClose={this.onCloseAlert.bind(this)} dismissible hidden={hidden}>
+                    Your message has been sent and we will respond as quickly as we can.
                 </Alert>
                 <h1 className="title">Contact Us</h1>
                 <h5>
@@ -115,7 +116,7 @@ class ContactUs extends Component {
                                     placeholder="Enter message"
                                     rows="3"></TextArea>
                             </div>
-                            <Button className="btn btn-default"
+                            <Button className="btn btn-light"
                                 type="submit" >Submit</Button>
                         </Form>
                     </div>

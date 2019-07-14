@@ -6,7 +6,7 @@ function Band() {
     return (
         <Main>
             <div className="row">
-                <div className="col-xs-12">
+                <div className="col-sm">
                     <div className="band-pic-caption">
                         <p>2 Cor. 5:17</p>
                         <p>
@@ -20,7 +20,7 @@ function Band() {
                 </div>
             </div>
             <div className="row">
-                <div className="col-xs-12 photo-courtesy">
+                <div className="col-sm photo-courtesy">
                     Photos Courtesty of Flair Photography, Winchester, VA
                 </div>
             </div>

@@ -16,6 +16,14 @@ h5 {
     text-transform: uppercase;
 }
 
+img {
+    max-width: 100%;
+}
+
+.band-title {
+    font-size: 18px;
+}
+
 .required {
     color: rgb(255, 0, 0);
 }
@@ -27,6 +35,11 @@ h5 {
 }
 
 /* navigation */
+.nav {
+    display: block;
+    flex-wrap: unset;
+}
+
 .nav a {
     color: rgb(255, 255, 255);
     font-family: 'Averia Sans Libre';

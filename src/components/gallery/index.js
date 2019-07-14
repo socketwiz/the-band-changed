@@ -64,58 +64,57 @@ class Gallery extends Component {
                 style.width = '150px';
             }
 
-            return <li className="col-sm-4" key={index}>
+            return (
                 <div className="thumbnail"
-                    id={id}
-                    onClick={this.onClickPhoto.bind(this)}>
-                    <img alt="" src={image.path} style={style} />
+                     id={id}
+                     key={index}
+                     onClick={this.onClickPhoto.bind(this)}>
+                  <img alt="" src={image.path} style={style} />
                 </div>
-            </li>;
+            );
         });
         const carouselItems = map(images, (image, index) => {
-            return <Carousel.Item key={index}>
-                <img alt="" src={image.path} />
-            </Carousel.Item>;
+            return (
+                <Carousel.Item key={index}>
+                  <img alt="" src={image.path} />
+                </Carousel.Item>
+            );
         });
 
         return (
             <Main>
-                <h1 className="title">Photos</h1>
-                <div className="photo row">
-                    <div className="col-sm-6" id="slider-thumbs">
-                        <ul className="hide-bullets">
-                            {thumbnails}
-                        </ul>
-                    </div>
-                    <div className="col-sm-6">
-                        <div className="col-xs-12" id="slider">
-                            <div className="row">
-                                <div className="col-sm-12" id="carousel-bounding-box">
-                                    <Carousel className="carousel"
-                                        indicators={false}
-                                        interval={5000}> 
-                                        {carouselItems}
-                                    </Carousel>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              <h1 className="title">Photos</h1>
+              <div className="photo row">
+                <div className="col-7" id="slider-thumbs">
+                  {thumbnails}
                 </div>
+                <div className="col-5">
+                  <div className="row">
+                    <div className="col" id="carousel-bounding-box">
+                      <Carousel className="carousel"
+                                indicators={false}
+                                interval={5000}> 
+                        {carouselItems}
+                      </Carousel>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-                <Modal bsSize="large" show={showModal} onHide={this.close.bind(this)}>
-                    <Modal.Header closeButton>
-                        <Modal.Title>Image {activeIndex + 1}/{images.length}</Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                        <Carousel activeIndex={activeIndex}
+              <Modal bsSize="large" show={showModal} onHide={this.close.bind(this)}>
+                <Modal.Header closeButton>
+                  <Modal.Title>Image {activeIndex + 1}/{images.length}</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <Carousel activeIndex={activeIndex}
                             className="carousel"
                             controls={true}
                             indicators={false}
                             onSelect={this.onSelectCarousel.bind(this)}>
-                            {carouselItems}
-                        </Carousel>
-                    </Modal.Body>
-                </Modal>
+                    {carouselItems}
+                  </Carousel>
+                </Modal.Body>
+              </Modal>
             </Main>
         );
     }
