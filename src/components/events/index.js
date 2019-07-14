@@ -24,22 +24,22 @@ class UpcomingEvents extends Component {
 
             return <div className="event" key={index}>
                 <div className="row">
-                    <div className="col-xs-12 date">{event.date}</div>
+                    <div className="col date">{event.date}</div>
                 </div>
                 <div className="row">
-                    <div className="col-xs-12 time">Time: {time}</div>
+                    <div className="col time">Time: {time}</div>
                 </div>
                 <div className="row">
-                    <div className="col-xs-12 location">{event.location}</div>
+                    <div className="col location">{event.location}</div>
                 </div>
                 <div className="row">
-                    <div className="col-xs-12 address">{event.address}</div>
+                    <div className="col address">{event.address}</div>
                 </div>
                 <div className="row">
-                    <div className="col-xs-12 phone">{event.phone}</div>
+                    <div className="col phone">{event.phone}</div>
                 </div>
                 <div className="row">
-                    <div className="col-xs-12 hours">{event.hours}</div>
+                    <div className="col hours">{event.hours}</div>
                 </div>
             </div>;
         });
@@ -48,12 +48,12 @@ class UpcomingEvents extends Component {
             const eventsPartial = map(eventsPassed.events, (event, index) => {
                 return <div className="event-passed" key={index}>
                     <div className="row">
-                        <div className="col-xs-12 location">{event.location}</div>
+                        <div className="col location">{event.location}</div>
                     </div>
                 </div>;
             });
 
-            return <div className="col-xs-12" key={index}>
+            return <div className="col-12" key={index}>
                 <h2 className="past-events-title">Past Events {year}</h2>
                 {eventsPartial}
             </div>;
@@ -63,10 +63,10 @@ class UpcomingEvents extends Component {
             <Main>
                 <h1 className="title">Upcoming Events</h1>
                 <div className="row">
-                    <div className="col-xs-6">{eventPartial}</div>
-                    <div className="col-xs-6">
+                    <div className="col-6">{eventPartial}</div>
+                    <div className="col-6">
                         <div className="row">
-                            <div className="col-xs-12">
+                            <div className="col">
                                 <img src="/images/events-drums.jpg" alt="drums" />
                             </div>
                         </div>
