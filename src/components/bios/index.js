@@ -357,45 +357,6 @@ function BandBios() {
                 help me expand my abilities as a drummer as well as find a different
                 way to worship and make new friends.&quot;
             </p>
-
-            <h3>Barry Laub</h3>
-
-            <p>
-                Barry is from Allentown, PA, where he has worked in various construction trades. In 1991 he
-                became a licensed remodeling contractor then moved to Northern Virginia in 2000, continuing
-                his career as a self-employed carpenter.
-            </p>
-            <p>
-                Barry started playing saxophones in 1973, at the age of nine. He played alto sax in concert band,
-                tenor sax in marching band, baritone sax in jazz band. Over the years, he has played a
-                combination of tenor, alto or soprano saxophones in several church orchestras, from the church
-                he attended with his parents to the local church Barry and his fiancé Dana now attend.
-            </p>
-            <p>
-                &quot;Although I enjoy playing solos, I also appreciate and find fulfillment in playing a supportive
-                role within the band.&quot;
-            </p>
-            <p>
-                In 2017, Barry received an Associate of Arts: Information Systems from Liberty University
-                Online. He is now pursuing a Bachelor of Arts: IT Application and Database Development and
-                will soon work as a computer programmer.
-            </p>
-            <p>
-                &quot;The Christian values I was taught throughout childhood helped to keep me out of trouble.
-                However, in my twenties I went through a rebellious time. Although I recommitted my life to the
-                Lord, I still seemed to straddle the fence from time to time.&quot;
-            </p>
-            <p>
-                &quot;My relationship with the Lord is secure because it is based upon faith in what Jesus did for me,
-                however, I have proven that you will reap what you sow – good and bad. The Lord wants us to
-                make good decisions and do His will.&quot;
-            </p>
-            <p>
-                &quot;I&#39;m very thankful to have Dana in my life; she has been so supportive…especially these last
-                few years while going to college, and she has also encouraged me to pursue these musical
-                interests. I know the other band members also value the support of their families – thank you so
-                much!&quot;
-            </p>
         </Main>
     );
 }
