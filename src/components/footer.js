@@ -7,7 +7,7 @@ export default class Footer extends Component {
 
         return <div className="container">
             <div className="row">
-                <div className="col text-center">
+                <div className="col-sm text-center">
                     Copyright {year}. The Band-Changed. All rights reserved.
                 </div>
             </div>

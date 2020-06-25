@@ -2,7 +2,6 @@
 import React, {Component} from 'react';
 import Footer from '../components/footer.js';
 import Header from '../components/header.js';
-import Nav from '../components/nav';
 import PropTypes from 'prop-types';
 
 export default class Main extends Component {
@@ -11,20 +10,13 @@ export default class Main extends Component {
 
         return (
             <div>
-              <Header />
-
               <div className="container">
                 <div className="row">
-                  <div className="col-3">
-                    <Nav />
-                  </div>
-                  <div className="col-9">
+                  <div className="col-12">
                     {children}
                   </div>
                 </div>
               </div>
-
-              <Footer />
             </div>
         );
     }

@@ -68,8 +68,13 @@ img {
     float: right;
     width: 250px;
 }
-.photo-courtesy {
-    text-align: left;
+
+.goodbye {
+    margin-top: 3em;
+}
+
+.goodbye > p {
+    width: 848px;
 }
 
 /* Small devices (tablets, 768px and up) */

@@ -10,16 +10,16 @@ then
     tmux new-window -t the-band-changed:3 -n Zsh
 
     # run the client in the second window
-    tmux send-keys -t the-band-changed:0.0 'cd ~/dev/the-band-changed && npm start' C-m
+    tmux send-keys -t the-band-changed:0.0 'cd ~/dev/javascript/the-band-changed && npm start' C-m
 
     # run the client tests in the third window
-    tmux send-keys -t the-band-changed:1.0 'cd ~/dev/the-band-changed && npm run test:client' C-m
+    tmux send-keys -t the-band-changed:1.0 'cd ~/dev/javascript/the-band-changed && npm run test:client' C-m
 
     # just get to the proper path for the editor
-    tmux send-keys -t the-band-changed:2.0 'cd ~/dev/the-band-changed' C-m
+    tmux send-keys -t the-band-changed:2.0 'cd ~/dev/javascript/the-band-changed' C-m
 
     # just get to the proper path in the last window
-    tmux send-keys -t the-band-changed:3.0 'cd ~/dev/the-band-changed' C-m
+    tmux send-keys -t the-band-changed:3.0 'cd ~/dev/javascript/the-band-changed' C-m
 
     # select the code window and pane
     tmux select-window -t the-band-changed:2.0
